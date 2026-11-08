@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+             <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Contact & Schedule</title>
+             <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+        <div class="container">
+       
+        <header class="main-header">
+
+            <h1>Get in Touch</h1>
+            <p>Have questions or want to book an appointment? Fill out the form below or check our weekly availability.</p>
+        
+        </header>
+
+       
+        <section class="form-section">
+
+                <h2>Contact Us</h2>
+
+                <form action="#" method="POST" class="contact-form">
+
+                <div class="form-group">
+
+                         <label for="name">Full Name</label>
+                         <input type="text" id="name" name="name" required placeholder="John Doe">
+
+            </div>
+
+                <div class="form-group">
+
+                         <label for="email">Email Address</label>
+                         <input type="email" id="email" name="email" required placeholder="john@example.com">
+               
+             </div>
+
+                <div class="form-group">
+
+                         <label for="phone">Phone Number</label>
+                         <input type="tel" id="phone" name="phone" placeholder="(+27) 00-000-0000">
+               
+            </div>
+
+                <div class="form-group">
+
+                         <label for="subject">Subject</label>
+
+                                <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Select a topic</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="booking">Appointment Booking</option>
+                                <option value="feedback">Feedback</option>
+
+            </select>
+
+            </div>
+
+                <div class="form-group">
+
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder=
+                                "How can we help you?">
+                                </textarea>
+            </div>
+
+                                 <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            </section>
+
+       
+                            <section class="schedule-section">
+
+                    <h2>Available Appointment Times</h2>
+
+                    <div class="table-container">
+
+                                 <table class="schedule-table">
+            <thead>
+             <tr>
+                                 <th>Time Slot</th>
+                                 <th>Monday - Wednesday</th>
+                                 <th>Thursday - Friday</th>
+            </tr>
+
+            </thead>
+
+            <tbody>
+
+            <tr>
+                                 <td>09:00 AM - 11:00 AM</td>
+                                 <td class="status-available">Available</td>
+                                 <td class="status-booked">Booked</td>
+            </tr>
+
+            <tr>
+                                 <td>11:00 AM - 01:00 PM</td>
+                                 <td class="status-available">Available</td>
+                                 <td class="status-available">Available</td>
+            </tr>
+
+            <tr>
+                                 <td>01:00 PM - 02:00 PM</td>
+                                 <td class="status-break" colspan="2">Lunch Break (Closed)</td>
+            </tr> 
+
+            <tr>
+                                 <td>02:00 PM - 04:00 PM</td>
+                                 <td class="status-booked">Booked</td>
+                                 <td class="status-available">Available</td>
+            </tr>
+
+            <tr>
+                                 <td>04:00 PM - 06:00 PM</td>
+                                 <td class="status-available">Available</td>
+                                 <td class="status-booked">Booked</td>
+            </tr>
+
+            </tbody>
+
+            </table>
+
+            </div>
+
+            </section>
+
+            </div>
+
+</body>
+</html>
